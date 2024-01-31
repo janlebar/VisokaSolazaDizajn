@@ -1,0 +1,2083 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AFLabs urnik izvoz - fd//aflabs.si//SI
+DTSTAMP:20240127T110303Z
+NAME:FD Urnik
+REFRESH-INTERVAL:PT1H
+SOURCE:https://urnik.fd.si/combined/?classroom=8&classroom=9&classroom=11&
+ classroom=12&classroom=13&classroom=14&export=1&types=standard%2Cspecial%2
+ Creservation
+URL:https://urnik.fd.si/combined/?classroom=8&classroom=9&classroom=11&cla
+ ssroom=12&classroom=13&classroom=14&export=1&types=standard%2Cspecial%2Cre
+ servation
+X-PUBLISHED-TTL:PT1H
+X-WR-CALNAME:FD Urnik
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VTIMEZONE
+TZID:Europe/Ljubljana
+BEGIN:DAYLIGHT
+DTSTART:20240331T020000
+RDATE:20240331T020000
+RDATE:20250330T020000
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20241027T030000
+RDATE:20241027T030000
+RDATE:20251026T030000
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA KONCEPTNO NOTRANJE OBLIKOVANJE - VIZUALIZACIJSKE TEHNIKE
+  (SZKNO (1-NO IZR)) (SZNO(1-NO IZR))\, Vaje (V)
+DTSTART:20240108T163000
+DTEND:20240108T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:4955
+ATTENDEE:Notranja oprema, 1. letnik IZREDNI (no-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA KONCEPTNO NOTRANJE OBLIKOVANJE - VIZUALIZAC
+ IJSKE TEHNIKE (SZKNO (1-NO IZR)) (SZNO(1-NO IZR))\, Vaje (V)\nLetniki: \nI
+ zvajalci: Živa Slavec\nProstor: FD Laboratorij za kreativne industrije (p
+ ritličje)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Živa Slavec
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4115
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA KONCEPTNO NOTRANJE OBLIKOVANJE - VIZUALIZACIJSKE TEHNIKE
+  (SZKNO (1-NO IZR)) (SZNO(1-NO IZR))\, Vaje (V)
+DTSTART:20240115T163000
+DTEND:20240115T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:4956
+ATTENDEE:Notranja oprema, 1. letnik IZREDNI (no-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA KONCEPTNO NOTRANJE OBLIKOVANJE - VIZUALIZAC
+ IJSKE TEHNIKE (SZKNO (1-NO IZR)) (SZNO(1-NO IZR))\, Vaje (V)\nLetniki: \nI
+ zvajalci: Živa Slavec\nProstor: FD Laboratorij za kreativne industrije (p
+ ritličje)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Živa Slavec
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4115
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TEORIJA BARV (IZREDNI) (TB (NO-1 IZR))\, Predavanje (P)
+DTSTART:20240103T163000
+DTEND:20240103T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:4991
+ATTENDEE:Notranja oprema, 1. letnik IZREDNI (no-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: TEORIJA BARV (IZREDNI) (TB (NO-1 IZR))\, Predavanje (
+ P)\nLetniki: Notranja oprema\, 1. letnik IZREDNI (no-izredni)\nIzvajalci: 
+ Tomaž Novljan\nProstor: FD Laboratorij za kreativne industrije (pritličj
+ e)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Tomaž Novljan
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4128
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TEORIJA BARV (IZREDNI) (TB (NO-1 IZR))\, Predavanje (P)
+DTSTART:20240110T163000
+DTEND:20240110T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:4992
+ATTENDEE:Notranja oprema, 1. letnik IZREDNI (no-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: TEORIJA BARV (IZREDNI) (TB (NO-1 IZR))\, Predavanje (
+ P)\nLetniki: Notranja oprema\, 1. letnik IZREDNI (no-izredni)\nIzvajalci: 
+ Tomaž Novljan\nProstor: FD Laboratorij za kreativne industrije (pritličj
+ e)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Tomaž Novljan
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4128
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TEORIJA BARV (IZREDNI) (TB (NO-1 IZR))\, Predavanje (P)
+DTSTART:20240117T163000
+DTEND:20240117T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:4993
+ATTENDEE:Notranja oprema, 1. letnik IZREDNI (no-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: TEORIJA BARV (IZREDNI) (TB (NO-1 IZR))\, Predavanje (
+ P)\nLetniki: Notranja oprema\, 1. letnik IZREDNI (no-izredni)\nIzvajalci: 
+ Tomaž Novljan\nProstor: FD Laboratorij za kreativne industrije (pritličj
+ e)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Tomaž Novljan
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4128
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:KORPORATIVNA DRUŽBENA ODGOVORNOST (MAG) (KDO (MAG))\, Vaje (V)
+DTSTART:20240109T163000
+DTEND:20240109T194500
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5056
+ATTENDEE:Dizajn management, 1. letnik MAG (dm-mag)
+ATTENDEE:Dizajn management, 2. letnik MAG (dm-mag)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: KORPORATIVNA DRUŽBENA ODGOVORNOST (MAG) (KDO (MAG))\
+ , Vaje (V)\nLetniki: Dizajn management\, 1. letnik MAG (dm-mag)\, Dizajn m
+ anagement\, 2. letnik MAG (dm-mag)\nIzvajalci: Rado Bohinc\nProstor: FD Ka
+ rierni center (2. nadstropje)
+LOCATION:FD Karierni center (2. nadstropje)
+ORGANIZER:Rado Bohinc
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4139
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:KORPORATIVNA DRUŽBENA ODGOVORNOST (MAG) (KDO (MAG))\, Vaje (V)
+DTSTART:20240116T163000
+DTEND:20240116T194500
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5057
+ATTENDEE:Dizajn management, 1. letnik MAG (dm-mag)
+ATTENDEE:Dizajn management, 2. letnik MAG (dm-mag)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: KORPORATIVNA DRUŽBENA ODGOVORNOST (MAG) (KDO (MAG))\
+ , Vaje (V)\nLetniki: Dizajn management\, 1. letnik MAG (dm-mag)\, Dizajn m
+ anagement\, 2. letnik MAG (dm-mag)\nIzvajalci: Rado Bohinc\nProstor: FD Ka
+ rierni center (2. nadstropje)
+LOCATION:FD Karierni center (2. nadstropje)
+ORGANIZER:Rado Bohinc
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4139
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA RAZVOJ NOTRANJE OPREME III (SZRNO III)\, Predavanje (P)
+DTSTART:20240108T083000
+DTEND:20240108T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5088
+ATTENDEE:Notranja oprema, 2. letnik (no)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA RAZVOJ NOTRANJE OPREME III (SZRNO III)\, Pr
+ edavanje (P)\nLetniki: Notranja oprema\, 2. letnik (no)\nIzvajalci: Petra 
+ Kocjančič\nProstor: FD Laboratorij za kreativne industrije (pritličje)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Petra Kocjančič
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4158
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA RAZVOJ POHIŠTVA (SZRP)\, Predavanje (P)
+DTSTART:20240104T123000
+DTEND:20240104T163000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5090
+ATTENDEE:Notranja oprema, 2. letnik (no)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA RAZVOJ POHIŠTVA (SZRP)\, Predavanje (P)\nL
+ etniki: Notranja oprema\, 2. letnik (no)\nIzvajalci: Mojca Perše\nProstor
+ : FD Laboratorij za kreativne industrije (pritličje)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Mojca Perše
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4159
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA RAZVOJ POHIŠTVA (SZRP)\, Predavanje (P)
+DTSTART:20240116T083000
+DTEND:20240116T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5097
+ATTENDEE:Notranja oprema, 2. letnik (no)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA RAZVOJ POHIŠTVA (SZRP)\, Predavanje (P)\nL
+ etniki: Notranja oprema\, 2. letnik (no)\nIzvajalci: Mojca Perše\nProstor
+ : FD Laboratorij za kreativne industrije (pritličje)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Mojca Perše
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4164
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA RAZVOJ POHIŠTVA (SZRP)\, Predavanje (P)
+DTSTART:20240119T083000
+DTEND:20240119T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5098
+ATTENDEE:Notranja oprema, 2. letnik (no)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA RAZVOJ POHIŠTVA (SZRP)\, Predavanje (P)\nL
+ etniki: Notranja oprema\, 2. letnik (no)\nIzvajalci: Mojca Perše\nProstor
+ : FD Laboratorij za kreativne industrije (pritličje)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Mojca Perše
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4165
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA RAZVOJ POHIŠTVA (IZREDNI) (SZRP (IZR))\, Predavanje (P)
+DTSTART:20240111T163000
+DTEND:20240111T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5124
+ATTENDEE:Erasmus (Erasmus+)
+ATTENDEE:Notranja oprema, 2. letnik IZREDNI (no-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA RAZVOJ POHIŠTVA (IZREDNI) (SZRP (IZR))\, P
+ redavanje (P)\nLetniki: Erasmus (Erasmus+)\, Notranja oprema\, 2. letnik I
+ ZREDNI (no-izredni)\nIzvajalci: Mojca Perše\nProstor: FD Laboratorij za k
+ reativne industrije (pritličje)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Mojca Perše
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4176
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA RAZVOJ POHIŠTVA (IZREDNI) (SZRP (IZR))\, Predavanje (P)
+DTSTART:20240118T163000
+DTEND:20240118T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5125
+ATTENDEE:Erasmus (Erasmus+)
+ATTENDEE:Notranja oprema, 2. letnik IZREDNI (no-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA RAZVOJ POHIŠTVA (IZREDNI) (SZRP (IZR))\, P
+ redavanje (P)\nLetniki: Erasmus (Erasmus+)\, Notranja oprema\, 2. letnik I
+ ZREDNI (no-izredni)\nIzvajalci: Mojca Perše\nProstor: FD Laboratorij za k
+ reativne industrije (pritličje)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Mojca Perše
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4176
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA RAZVOJ NOTRANJE OPREME III (SZRNO III)\, Vaje (V)
+DTSTART:20240104T163000
+DTEND:20240104T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5146
+ATTENDEE:Notranja oprema, 2. letnik (no)
+ATTENDEE:Notranja oprema, 2. letnik IZREDNI (no-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA RAZVOJ NOTRANJE OPREME III (SZRNO III)\, Va
+ je (V)\nLetniki: Notranja oprema\, 2. letnik (no)\nIzvajalci: Petra Kocjan
+ čič\nProstor: FD Laboratorij za kreativne industrije (pritličje)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Petra Kocjančič
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4182
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NAČRTOVANJE VIZUALNIH KOMUNIKACIJ V. - INFORMACIJSKI DIZAJN (IZRE
+ DNI) (NVK V. ID (IZR))\, Predavanje (P)
+DTSTART:20240111T163000
+DTEND:20240111T210000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6269
+ATTENDEE:Erasmus (Erasmus+)
+ATTENDEE:Vizualne komunikacije, 3. letnik IZREDNI (vk-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: NAČRTOVANJE VIZUALNIH KOMUNIKACIJ V. - INFORMACIJSKI
+  DIZAJN (IZREDNI) (NVK V. ID (IZR))\, Predavanje (P)\nLetniki: Erasmus (Er
+ asmus+)\, Vizualne komunikacije\, 3. letnik IZREDNI (vk-izredni)\nIzvajalc
+ i: Katarina Klemen\nProstor: FD Računalniška soba (1. nadstropje)
+LOCATION:FD Računalniška soba (1. nadstropje)
+ORGANIZER:Katarina Klemen
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4185
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA RAZVOJ POHIŠTVA (IZREDNI) (SZRP (IZR))\, Predavanje (P)
+DTSTART:20240109T163000
+DTEND:20240109T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5162
+ATTENDEE:Erasmus (Erasmus+)
+ATTENDEE:Notranja oprema, 2. letnik IZREDNI (no-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA RAZVOJ POHIŠTVA (IZREDNI) (SZRP (IZR))\, P
+ redavanje (P)\nLetniki: Erasmus (Erasmus+)\, Notranja oprema\, 2. letnik I
+ ZREDNI (no-izredni)\nIzvajalci: Mojca Perše\nProstor: FD Laboratorij za k
+ reativne industrije (pritličje)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Mojca Perše
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4191
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA RAZVOJ NOTRANJE OPREME III. (IZREDNI) (SZRNO III. (IZR))
+ \, Predavanje (P)
+DTSTART:20240116T163000
+DTEND:20240116T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5163
+ATTENDEE:Notranja oprema, 2. letnik IZREDNI (no-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA RAZVOJ NOTRANJE OPREME III. (IZREDNI) (SZRN
+ O III. (IZR))\, Predavanje (P)\nLetniki: Notranja oprema\, 2. letnik IZRED
+ NI (no-izredni)\nIzvajalci: Petra Kocjančič\nProstor: FD Laboratorij za 
+ kreativne industrije (pritličje)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Petra Kocjančič
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4192
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA NOTRANJO OPREMO JAVNIH OBJEKTOV (SZNOJO)\, Vaje (V)
+DTSTART:20240109T083000
+DTEND:20240109T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5238
+ATTENDEE:Notranja oprema, 3. letnik (no)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA NOTRANJO OPREMO JAVNIH OBJEKTOV (SZNOJO)\, 
+ Vaje (V)\nLetniki: Notranja oprema\, 3. letnik (no)\nIzvajalci: Jasna Hrov
+ atin\nProstor: FD Laboratorij za kreativne industrije (pritličje)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Jasna Hrovatin
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4230
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA NOTRANJO OPREMO JAVNIH OBJEKTOV (SZNOJO)\, Vaje (V)
+DTSTART:20240116T123000
+DTEND:20240116T163000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5239
+ATTENDEE:Notranja oprema, 3. letnik (no)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA NOTRANJO OPREMO JAVNIH OBJEKTOV (SZNOJO)\, 
+ Vaje (V)\nLetniki: Notranja oprema\, 3. letnik (no)\nIzvajalci: Jasna Hrov
+ atin\nProstor: FD Laboratorij za kreativne industrije (pritličje)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Jasna Hrovatin
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4231
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:INTERAKTIVNO IN SPLETNO OBLIKOVANJE ll (ISO2)\, Predavanje (P)
+DTSTART:20240105T083000
+DTEND:20240105T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5291
+ATTENDEE:Vizualne komunikacije, 3. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: INTERAKTIVNO IN SPLETNO OBLIKOVANJE ll (ISO2)\, Preda
+ vanje (P)\nLetniki: Vizualne komunikacije\, 3. letnik (vk)\nIzvajalci: Mat
+ jaž Tomažič\nProstor: FD Računalniška soba (1. nadstropje)
+LOCATION:FD Računalniška soba (1. nadstropje)
+ORGANIZER:Matjaž Tomažič
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4254
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:INTERAKTIVNO IN SPLETNO OBLIKOVANJE ll (ISO2)\, Predavanje (P)
+DTSTART:20240112T083000
+DTEND:20240112T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5292
+ATTENDEE:Vizualne komunikacije, 3. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: INTERAKTIVNO IN SPLETNO OBLIKOVANJE ll (ISO2)\, Preda
+ vanje (P)\nLetniki: Vizualne komunikacije\, 3. letnik (vk)\nIzvajalci: Mat
+ jaž Tomažič\nProstor: FD Računalniška soba (1. nadstropje)
+LOCATION:FD Računalniška soba (1. nadstropje)
+ORGANIZER:Matjaž Tomažič
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4254
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:INTERAKTIVNO IN SPLETNO OBLIKOVANJE ll (ISO2)\, Predavanje (P)
+DTSTART:20240119T083000
+DTEND:20240119T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5293
+ATTENDEE:Vizualne komunikacije, 3. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: INTERAKTIVNO IN SPLETNO OBLIKOVANJE ll (ISO2)\, Preda
+ vanje (P)\nLetniki: Vizualne komunikacije\, 3. letnik (vk)\nIzvajalci: Mat
+ jaž Tomažič\nProstor: FD Računalniška soba (1. nadstropje)
+LOCATION:FD Računalniška soba (1. nadstropje)
+ORGANIZER:Matjaž Tomažič
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4254
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA NAČRTOVANJE VIZUALNIH KOMUNIKACIJ V - INFORMACIJSKI DIZ
+ AJN (SNVK RED)\, Predavanje (P)
+DTSTART:20240116T083000
+DTEND:20240116T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5295
+ATTENDEE:Vizualne komunikacije, 3. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA NAČRTOVANJE VIZUALNIH KOMUNIKACIJ V - INFO
+ RMACIJSKI DIZAJN (SNVK RED)\, Predavanje (P)\nLetniki: Vizualne komunikaci
+ je\, 3. letnik (vk)\nIzvajalci: Martina Kač Nemanič\nProstor: FD Laborat
+ orij za vizualne komunikacije (1.nadstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Martina Kač Nemanič
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4256
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MANAGEMENT INOVATIVNOSTI IN TEHNOLOGIJ (3VK) (MIT(3VK))\, Vaje (V)
+DTSTART:20240110T123000
+DTEND:20240110T163000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5299
+ATTENDEE:Vizualne komunikacije, 3. letnik (vk)
+CATEGORIES:Entry,Special
+COLOR:forestgreen
+DESCRIPTION:Predmet: MANAGEMENT INOVATIVNOSTI IN TEHNOLOGIJ (3VK) (MIT(3VK
+ ))\, Vaje (V)\nLetniki: Vizualne komunikacije\, 3. letnik (vk)\nIzvajalci:
+  Jordan Berginc\nProstor: FD Laboratorij za vizualne komunikacije (1.nadst
+ ropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Jordan Berginc
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4258
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA NOTRANJO OPREMO JAVNIH OBJEKTOV (IZREDNI) (SZNOJO (IZR))
+ \, Predavanje (P)
+DTSTART:20240109T163000
+DTEND:20240109T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5306
+ATTENDEE:Notranja oprema, 3. letnik IZREDNI (no-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA NOTRANJO OPREMO JAVNIH OBJEKTOV (IZREDNI) (
+ SZNOJO (IZR))\, Predavanje (P)\nLetniki: Notranja oprema\, 3. letnik IZRED
+ NI (no-izredni)\nIzvajalci: Benjamin Hafner\nProstor: FD Laboratorij za pr
+ oduktno oblikovanje 2 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+ORGANIZER:Benjamin Hafner
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4260
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA NOTRANJO OPREMO JAVNIH OBJEKTOV (IZREDNI) (SZNOJO (IZR))
+ \, Predavanje (P)
+DTSTART:20240116T163000
+DTEND:20240116T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5307
+ATTENDEE:Notranja oprema, 3. letnik IZREDNI (no-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA NOTRANJO OPREMO JAVNIH OBJEKTOV (IZREDNI) (
+ SZNOJO (IZR))\, Predavanje (P)\nLetniki: Notranja oprema\, 3. letnik IZRED
+ NI (no-izredni)\nIzvajalci: Benjamin Hafner\nProstor: FD Laboratorij za pr
+ oduktno oblikovanje 2 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+ORGANIZER:Benjamin Hafner
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4260
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ZGODOVINA OBLAČENJA (ZO)\, Predavanje (P)
+DTSTART:20240104T130000
+DTEND:20240104T153000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5804
+ATTENDEE:Moda in tekstilije, 1. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: ZGODOVINA OBLAČENJA (ZO)\, Predavanje (P)\nLetniki: 
+ Moda in tekstilije\, 1. letnik (mt)\nIzvajalci: Karin Košak Arzenšek\nPr
+ ostor: FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+ORGANIZER:Karin Košak Arzenšek
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4300
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ZGODOVINA OBLAČENJA (ZO)\, Predavanje (P)
+DTSTART:20240111T130000
+DTEND:20240111T153000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5805
+ATTENDEE:Moda in tekstilije, 1. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: ZGODOVINA OBLAČENJA (ZO)\, Predavanje (P)\nLetniki: 
+ Moda in tekstilije\, 1. letnik (mt)\nIzvajalci: Karin Košak Arzenšek\nPr
+ ostor: FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+ORGANIZER:Karin Košak Arzenšek
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4300
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ILUSTRACIJA (IZREDNI) (ILU (IZR))\, Predavanje (P)
+DTSTART:20240111T163000
+DTEND:20240111T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5501
+ATTENDEE:Vizualne komunikacije, 2. letnik IZREDNI (vk-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: ILUSTRACIJA (IZREDNI) (ILU (IZR))\, Predavanje (P)\nL
+ etniki: Vizualne komunikacije\, 2. letnik IZREDNI (vk-izredni)\nIzvajalci:
+  Nataša Šušteršič Plotajs\nProstor: FD Laboratorij za vizualne komuni
+ kacije (1.nadstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Nataša Šušteršič Plotajs
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4330
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TEHNOLOGIJA GRAFIČNIH PROCESOV (IZREDNI) (TGP (IZR))\, Predavanje
+  (P)
+DTSTART:20240103T163000
+DTEND:20240103T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5508
+ATTENDEE:Vizualne komunikacije, 2. letnik IZREDNI (vk-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: TEHNOLOGIJA GRAFIČNIH PROCESOV (IZREDNI) (TGP (IZR))
+ \, Predavanje (P)\nLetniki: Vizualne komunikacije\, 2. letnik IZREDNI (vk-
+ izredni)\nIzvajalci: Mitja Košak\nProstor: FD Računalniška soba (1. nad
+ stropje)
+LOCATION:FD Računalniška soba (1. nadstropje)
+ORGANIZER:Mitja Košak
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4333
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TEHNOLOGIJA GRAFIČNIH PROCESOV (IZREDNI) (TGP (IZR))\, Predavanje
+  (P)
+DTSTART:20240110T163000
+DTEND:20240110T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5509
+ATTENDEE:Vizualne komunikacije, 2. letnik IZREDNI (vk-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: TEHNOLOGIJA GRAFIČNIH PROCESOV (IZREDNI) (TGP (IZR))
+ \, Predavanje (P)\nLetniki: Vizualne komunikacije\, 2. letnik IZREDNI (vk-
+ izredni)\nIzvajalci: Mitja Košak\nProstor: FD Računalniška soba (1. nad
+ stropje)
+LOCATION:FD Računalniška soba (1. nadstropje)
+ORGANIZER:Mitja Košak
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4333
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TIPOGRAFIJA Ill (IZREDNI) (TIP IV (IZR))\, Predavanje (P)
+DTSTART:20240112T163000
+DTEND:20240112T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5511
+ATTENDEE:Vizualne komunikacije, 2. letnik IZREDNI (vk-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: TIPOGRAFIJA Ill (IZREDNI) (TIP IV (IZR))\, Predavanje
+  (P)\nLetniki: Vizualne komunikacije\, 2. letnik IZREDNI (vk-izredni)\nIzv
+ ajalci: ALJA HERLAH\nProstor: FD Laboratorij za kreativne industrije (prit
+ ličje)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:ALJA HERLAH
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4334
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TIPOGRAFIJA Ill (IZREDNI) (TIP IV (IZR))\, Predavanje (P)
+DTSTART:20240118T163000
+DTEND:20240118T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5512
+ATTENDEE:Vizualne komunikacije, 2. letnik IZREDNI (vk-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: TIPOGRAFIJA Ill (IZREDNI) (TIP IV (IZR))\, Predavanje
+  (P)\nLetniki: Vizualne komunikacije\, 2. letnik IZREDNI (vk-izredni)\nIzv
+ ajalci: ALJA HERLAH\nProstor: FD Laboratorij za vizualne komunikacije (1.n
+ adstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:ALJA HERLAH
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4335
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA NAČRTOVANJE VIZUALNIH KOMUNIKACIJ III - CELOSTNA GRAFI
+ ČNA PODOBA IN BLAGOVNE ZNAMKE (SNVK3-CGP)\, Predavanje (P)
+DTSTART:20240109T123000
+DTEND:20240109T163000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5531
+ATTENDEE:Vizualne komunikacije, 2. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA NAČRTOVANJE VIZUALNIH KOMUNIKACIJ III - CE
+ LOSTNA GRAFIČNA PODOBA IN BLAGOVNE ZNAMKE (SNVK3-CGP)\, Predavanje (P)\nL
+ etniki: Vizualne komunikacije\, 2. letnik (vk)\nIzvajalci: Nataša Vuga\nP
+ rostor: FD Laboratorij za vizualne komunikacije (1.nadstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Nataša Vuga
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4344
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TIPOGRAFIJA lll (TIP IV)\, Predavanje (P)
+DTSTART:20240104T123000
+DTEND:20240104T163000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5534
+ATTENDEE:Erasmus (Erasmus+)
+ATTENDEE:Vizualne komunikacije, 2. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: TIPOGRAFIJA lll (TIP IV)\, Predavanje (P)\nLetniki: E
+ rasmus (Erasmus+)\, Vizualne komunikacije\, 2. letnik (vk)\nIzvajalci: Luk
+ a Mancini\nProstor: FD Laboratorij za vizualne komunikacije (1.nadstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Luka Mancini
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4346
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TIPOGRAFIJA lll (TIP IV)\, Predavanje (P)
+DTSTART:20240111T123000
+DTEND:20240111T163000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5535
+ATTENDEE:Erasmus (Erasmus+)
+ATTENDEE:Vizualne komunikacije, 2. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: TIPOGRAFIJA lll (TIP IV)\, Predavanje (P)\nLetniki: E
+ rasmus (Erasmus+)\, Vizualne komunikacije\, 2. letnik (vk)\nIzvajalci: Luk
+ a Mancini\nProstor: FD Laboratorij za vizualne komunikacije (1.nadstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Luka Mancini
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4346
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TIPOGRAFIJA lll (TIP IV)\, Predavanje (P)
+DTSTART:20240118T123000
+DTEND:20240118T163000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5536
+ATTENDEE:Erasmus (Erasmus+)
+ATTENDEE:Vizualne komunikacije, 2. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: TIPOGRAFIJA lll (TIP IV)\, Predavanje (P)\nLetniki: E
+ rasmus (Erasmus+)\, Vizualne komunikacije\, 2. letnik (vk)\nIzvajalci: Luk
+ a Mancini\nProstor: FD Laboratorij za vizualne komunikacije (1.nadstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Luka Mancini
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4346
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA NAČRTOVANJE VIZUALNIH KOMUNIKACIJ III - CELOSTNA GRAFI
+ ČNA PODOBA IN BLAGOVNE ZNAMKE (SNVK3-CGP)\, Predavanje (P)
+DTSTART:20240117T123000
+DTEND:20240117T163000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5539
+ATTENDEE:Vizualne komunikacije, 2. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA NAČRTOVANJE VIZUALNIH KOMUNIKACIJ III - CE
+ LOSTNA GRAFIČNA PODOBA IN BLAGOVNE ZNAMKE (SNVK3-CGP)\, Predavanje (P)\nL
+ etniki: Vizualne komunikacije\, 2. letnik (vk)\nIzvajalci: Nataša Vuga\nP
+ rostor: FD Laboratorij za vizualne komunikacije (1.nadstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Nataša Vuga
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4349
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VIZUALNI JEZIK (VK REDNI) vaje (VJ-VKR vaje)\, Predavanje (P)
+DTSTART:20240110T083000
+DTEND:20240110T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5552
+ATTENDEE:Vizualne komunikacije, 1. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: VIZUALNI JEZIK (VK REDNI) vaje (VJ-VKR vaje)\, Predav
+ anje (P)\nLetniki: Vizualne komunikacije\, 1. letnik (vk)\nIzvajalci: Petr
+ a Bole\nProstor: FD Laboratorij za vizualne komunikacije (1.nadstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Petra Bole
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4354
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TEORIJA BARV VK1R (TB VK1R)\, Predavanje (P)
+DTSTART:20240104T083000
+DTEND:20240104T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5555
+ATTENDEE:Vizualne komunikacije, 1. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: TEORIJA BARV VK1R (TB VK1R)\, Predavanje (P)\nLetniki
+ : Vizualne komunikacije\, 1. letnik (vk)\nIzvajalci: Mojca Puncer\nProstor
+ : FD Laboratorij za vizualne komunikacije (1.nadstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Mojca Puncer
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4356
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TEORIJA BARV VK1R (TB VK1R)\, Predavanje (P)
+DTSTART:20240118T083000
+DTEND:20240118T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5556
+ATTENDEE:Vizualne komunikacije, 1. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: TEORIJA BARV VK1R (TB VK1R)\, Predavanje (P)\nLetniki
+ : Vizualne komunikacije\, 1. letnik (vk)\nIzvajalci: Mojca Puncer\nProstor
+ : FD Laboratorij za vizualne komunikacije (1.nadstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Mojca Puncer
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4356
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TEORIJA BARV VK1R (TB VK1R)\, Predavanje (P)
+DTSTART:20240105T083000
+DTEND:20240105T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5557
+ATTENDEE:Vizualne komunikacije, 1. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: TEORIJA BARV VK1R (TB VK1R)\, Predavanje (P)\nLetniki
+ : Vizualne komunikacije\, 1. letnik (vk)\nIzvajalci: Mojca Puncer\nProstor
+ : FD Laboratorij za vizualne komunikacije (1.nadstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Mojca Puncer
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4357
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:USTVARJALNOST (VK1R) (1VKR CORR)\, Predavanje (P)
+DTSTART:20240109T083000
+DTEND:20240109T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5566
+ATTENDEE:Vizualne komunikacije, 1. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: USTVARJALNOST (VK1R) (1VKR CORR)\, Predavanje (P)\nLe
+ tniki: \nIzvajalci: Špela Jambrek\nProstor: FD Laboratorij za vizualne ko
+ munikacije (1.nadstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Špela Jambrek
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4360
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:USTVARJALNOST (VK1R) (1VKR CORR)\, Vaje (V)
+DTSTART:20240119T083000
+DTEND:20240119T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5567
+ATTENDEE:Vizualne komunikacije, 1. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: USTVARJALNOST (VK1R) (1VKR CORR)\, Vaje (V)\nLetniki:
+  \nIzvajalci: Špela Jambrek\nProstor: FD Laboratorij za vizualne komunika
+ cije (1.nadstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Špela Jambrek
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4361
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VIZUALNI JEZIK (VK REDNI) vaje (VJ-VKR vaje)\, Vaje (V)
+DTSTART:20240117T083000
+DTEND:20240117T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5568
+ATTENDEE:Vizualne komunikacije, 1. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: VIZUALNI JEZIK (VK REDNI) vaje (VJ-VKR vaje)\, Vaje (
+ V)\nLetniki: Vizualne komunikacije\, 1. letnik (vk)\nIzvajalci: Petra Bole
+ \nProstor: FD Laboratorij za vizualne komunikacije (1.nadstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Petra Bole
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4362
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TEHNOLOGIJA GRAFIČNIH PROCESOV (IZREDNI) (TGP (IZR))\, Predavanje
+  (P)
+DTSTART:20240117T163000
+DTEND:20240117T210000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5620
+ATTENDEE:Vizualne komunikacije, 2. letnik IZREDNI (vk-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: TEHNOLOGIJA GRAFIČNIH PROCESOV (IZREDNI) (TGP (IZR))
+ \, Predavanje (P)\nLetniki: Vizualne komunikacije\, 2. letnik IZREDNI (vk-
+ izredni)\nIzvajalci: Mitja Košak\nProstor: FD Računalniška soba (1. nad
+ stropje)
+LOCATION:FD Računalniška soba (1. nadstropje)
+ORGANIZER:Mitja Košak
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4374
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA NAČRTOVANJE VK II - SEMANTIKA IN SINTAKSA (IZREDNI) (SZ
+ NVKII - SIS (IZR))\, Predavanje (P)
+DTSTART:20240104T163000
+DTEND:20240104T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5646
+ATTENDEE:Vizualne komunikacije, 1. letnik IZREDNI (vk-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA NAČRTOVANJE VK II - SEMANTIKA IN SINTAKSA 
+ (IZREDNI) (SZNVKII - SIS (IZR))\, Predavanje (P)\nLetniki: Vizualne komuni
+ kacije\, 1. letnik IZREDNI (vk-izredni)\nIzvajalci: Katarina Klemen\nProst
+ or: FD Laboratorij za vizualne komunikacije (1.nadstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Katarina Klemen
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4392
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA NAČRTOVANJE VK II - SEMANTIKA IN SINTAKSA (IZREDNI) (SZ
+ NVKII - SIS (IZR))\, Predavanje (P)
+DTSTART:20240109T163000
+DTEND:20240109T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5647
+ATTENDEE:Vizualne komunikacije, 1. letnik IZREDNI (vk-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA NAČRTOVANJE VK II - SEMANTIKA IN SINTAKSA 
+ (IZREDNI) (SZNVKII - SIS (IZR))\, Predavanje (P)\nLetniki: Vizualne komuni
+ kacije\, 1. letnik IZREDNI (vk-izredni)\nIzvajalci: Katarina Klemen\nProst
+ or: FD Laboratorij za vizualne komunikacije (1.nadstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Katarina Klemen
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4393
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA NAČRTOVANJE VK II - SEMANTIKA IN SINTAKSA (IZREDNI) (SZ
+ NVKII - SIS (IZR))\, Predavanje (P)
+DTSTART:20240116T163000
+DTEND:20240116T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5648
+ATTENDEE:Vizualne komunikacije, 1. letnik IZREDNI (vk-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA NAČRTOVANJE VK II - SEMANTIKA IN SINTAKSA 
+ (IZREDNI) (SZNVKII - SIS (IZR))\, Predavanje (P)\nLetniki: Vizualne komuni
+ kacije\, 1. letnik IZREDNI (vk-izredni)\nIzvajalci: Katarina Klemen\nProst
+ or: FD Laboratorij za vizualne komunikacije (1.nadstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Katarina Klemen
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4393
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TEKSTILNI MATERIALI (TM)\, Predavanje (P)
+DTSTART:20240110T163000
+DTEND:20240110T184500
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5692
+ATTENDEE:Moda in tekstilije, 1. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: TEKSTILNI MATERIALI (TM)\, Predavanje (P)\nLetniki: M
+ oda in tekstilije\, 1. letnik (mt)\nIzvajalci: Tanja Pilar\nProstor: FD La
+ boratorij za produktno oblikovanje 2 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+ORGANIZER:Tanja Pilar
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4401
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA KONCEPTUALNO MODNO OBLIKOVANJE (SKMO)\, Vaje (V)
+DTSTART:20240109T090000
+DTEND:20240109T130000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5717
+ATTENDEE:Moda in tekstilije, 1. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA KONCEPTUALNO MODNO OBLIKOVANJE (SKMO)\, Vaj
+ e (V)\nLetniki: Moda in tekstilije\, 1. letnik (mt)\nIzvajalci: Tanja Deve
+ tak\nProstor: FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+ORGANIZER:Tanja Devetak
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4411
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA KONCEPTUALNO MODNO OBLIKOVANJE (SKMO)\, Vaje (V)
+DTSTART:20240116T090000
+DTEND:20240116T130000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5718
+ATTENDEE:Moda in tekstilije, 1. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA KONCEPTUALNO MODNO OBLIKOVANJE (SKMO)\, Vaj
+ e (V)\nLetniki: Moda in tekstilije\, 1. letnik (mt)\nIzvajalci: Tanja Deve
+ tak\nProstor: FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+ORGANIZER:Tanja Devetak
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4411
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA KONCEPTUALNO MODNO OBLIKOVANJE (SKMO)\, Predavanje (P)
+DTSTART:20240108T090000
+DTEND:20240108T111500
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5723
+ATTENDEE:Moda in tekstilije, 1. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA KONCEPTUALNO MODNO OBLIKOVANJE (SKMO)\, Pre
+ davanje (P)\nLetniki: Moda in tekstilije\, 1. letnik (mt)\nIzvajalci: Tanj
+ a Devetak\nProstor: FD Laboratorij za produktno oblikovanje 2 (1. nadstrop
+ je)
+LOCATION:FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+ORGANIZER:Tanja Devetak
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4412
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA NAČRTOVANJE VIZUALNIH KOMUNIKACIJ III - CELOSTNA GRAFI
+ ČNA PODOBA IN BLAGOVNE ZNAMKE (SNVK3-CGP)\, Predavanje (P)
+DTSTART:20240103T083000
+DTEND:20240103T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5538
+ATTENDEE:Vizualne komunikacije, 2. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA NAČRTOVANJE VIZUALNIH KOMUNIKACIJ III - CE
+ LOSTNA GRAFIČNA PODOBA IN BLAGOVNE ZNAMKE (SNVK3-CGP)\, Predavanje (P)\nL
+ etniki: Vizualne komunikacije\, 2. letnik (vk)\nIzvajalci: Nataša Vuga\nP
+ rostor: FD Računalniška soba (1. nadstropje)
+LOCATION:FD Računalniška soba (1. nadstropje)
+ORGANIZER:Nataša Vuga
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4419
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA KONCEPTUALNO MODNO OBLIKOVANJE (SKMO)\, Predavanje (P)
+DTSTART:20240112T090000
+DTEND:20240112T113000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5732
+ATTENDEE:Moda in tekstilije, 1. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA KONCEPTUALNO MODNO OBLIKOVANJE (SKMO)\, Pre
+ davanje (P)\nLetniki: Moda in tekstilije\, 1. letnik (mt)\nIzvajalci: Petr
+ a Windschnurer\nProstor: FD Laboratorij za produktno oblikovanje 2 (1. nad
+ stropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+ORGANIZER:Petra Windschnurer
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4423
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NAČRTOVANJE VIZUALNIH KOMUNIKACIJ V. - INFORMACIJSKI DIZAJN (IZRE
+ DNI) (NVK V. ID (IZR))\, Predavanje (P)
+DTSTART:20240117T163000
+DTEND:20240117T210000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6267
+ATTENDEE:Erasmus (Erasmus+)
+ATTENDEE:Vizualne komunikacije, 3. letnik IZREDNI (vk-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: NAČRTOVANJE VIZUALNIH KOMUNIKACIJ V. - INFORMACIJSKI
+  DIZAJN (IZREDNI) (NVK V. ID (IZR))\, Predavanje (P)\nLetniki: Erasmus (Er
+ asmus+)\, Vizualne komunikacije\, 3. letnik IZREDNI (vk-izredni)\nIzvajalc
+ i: Katarina Klemen\nProstor: FD Laboratorij za vizualne komunikacije (1.na
+ dstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Katarina Klemen
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4431
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:KONSTRUKCIJA IN MODELIRANJE II (KIM II)\, Vaje (V)
+DTSTART:20240119T090000
+DTEND:20240119T150000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6612
+ATTENDEE:Moda in tekstilije, 2. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: KONSTRUKCIJA IN MODELIRANJE II (KIM II)\, Vaje (V)\nL
+ etniki: Moda in tekstilije\, 2. letnik (mt)\nIzvajalci: Damjana Celcar\, L
+ idija Rotar\nProstor: FD Laboratorij za produktno oblikovanje 2 (1. nadstr
+ opje)
+LOCATION:FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+ORGANIZER:Damjana Celcar, Lidija Rotar
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4488
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA OBLIKOVANJE IN TISKANJE TEKSTILIJ (SOTT)\, Vaje (V)
+DTSTART:20240103T163000
+DTEND:20240103T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5832
+ATTENDEE:Moda in tekstilije, 2. letnik (mt)
+ATTENDEE:Notranja oprema, 2. letnik IZREDNI (no-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA OBLIKOVANJE IN TISKANJE TEKSTILIJ (SOTT)\, 
+ Vaje (V)\nLetniki: Moda in tekstilije\, 2. letnik (mt)\nIzvajalci: Jana Mr
+ šnik\nProstor: FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+ORGANIZER:Jana Mršnik
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4491
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DIGITALNO OBLIKOVANJE I (DO1)\, Vaje (V)
+DTSTART:20240104T090000
+DTEND:20240104T130000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5834
+ATTENDEE:Moda in tekstilije, 2. letnik (mt)
+CATEGORIES:Entry,Special
+COLOR:forestgreen
+DESCRIPTION:Predmet: DIGITALNO OBLIKOVANJE I (DO1)\, Vaje (V)\nLetniki: Mo
+ da in tekstilije\, 2. letnik (mt)\nIzvajalci: Damjana Celcar\nProstor: FD 
+ Računalniška soba (1. nadstropje)
+LOCATION:FD Računalniška soba (1. nadstropje)
+ORGANIZER:Damjana Celcar
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4493
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA OBLIKOVANJE TEKSTILIJ V (SOTI)\, Predavanje (P)
+DTSTART:20240105T163000
+DTEND:20240105T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5835
+ATTENDEE:Moda in tekstilije, 2. letnik (mt)
+ATTENDEE:Notranja oprema, 2. letnik IZREDNI (no-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA OBLIKOVANJE TEKSTILIJ V (SOTI)\, Predavanje
+  (P)\nLetniki: Moda in tekstilije\, 2. letnik (mt)\nIzvajalci: Jana Mršni
+ k\nProstor: FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+ORGANIZER:Jana Mršnik
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4494
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA OBLIKOVANJE IN TISKANJE TEKSTILIJ (SOTT)\, Vaje (V)
+DTSTART:20240108T113000
+DTEND:20240108T153000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5838
+ATTENDEE:Moda in tekstilije, 2. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA OBLIKOVANJE IN TISKANJE TEKSTILIJ (SOTT)\, 
+ Vaje (V)\nLetniki: Moda in tekstilije\, 2. letnik (mt)\nIzvajalci: Jana Mr
+ šnik\nProstor: FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+ORGANIZER:Jana Mršnik
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4497
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DIGITALNO OBLIKOVANJE I (DO1)\, Vaje (V)
+DTSTART:20240109T111500
+DTEND:20240109T163000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6567
+ATTENDEE:Moda in tekstilije, 2. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: DIGITALNO OBLIKOVANJE I (DO1)\, Vaje (V)\nLetniki: Mo
+ da in tekstilije\, 2. letnik (mt)\nIzvajalci: Damjana Celcar\nProstor: FD 
+ Računalniška soba (1. nadstropje)
+LOCATION:FD Računalniška soba (1. nadstropje)
+ORGANIZER:Damjana Celcar
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4498
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:KONSTRUKCIJA IN MODELIRANJE II (KIM II)\, Vaje (V)
+DTSTART:20240117T090000
+DTEND:20240117T150000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6611
+ATTENDEE:Moda in tekstilije, 2. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: KONSTRUKCIJA IN MODELIRANJE II (KIM II)\, Vaje (V)\nL
+ etniki: Moda in tekstilije\, 2. letnik (mt)\nIzvajalci: Lidija Rotar\nPros
+ tor: FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+ORGANIZER:Lidija Rotar
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4501
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DIGITALNO OBLIKOVANJE I (DO1)\, Vaje (V)
+DTSTART:20240116T123000
+DTEND:20240116T163000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5844
+ATTENDEE:Moda in tekstilije, 2. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: DIGITALNO OBLIKOVANJE I (DO1)\, Vaje (V)\nLetniki: Mo
+ da in tekstilije\, 2. letnik (mt)\nIzvajalci: Damjana Celcar\nProstor: FD 
+ Računalniška soba (1. nadstropje)
+LOCATION:FD Računalniška soba (1. nadstropje)
+ORGANIZER:Damjana Celcar
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4502
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA OBLIKOVANJE TEKSTILIJ V (SOTI)\, Vaje (V)
+DTSTART:20240111T160000
+DTEND:20240111T200000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6134
+ATTENDEE:Moda in tekstilije, 2. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA OBLIKOVANJE TEKSTILIJ V (SOTI)\, Vaje (V)\n
+ Letniki: Moda in tekstilije\, 2. letnik (mt)\nIzvajalci: Jana Mršnik\nPro
+ stor: FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+ORGANIZER:Jana Mršnik
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4505
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA OBLIKOVANJE TEKSTILIJ V (SOTI)\, Vaje (V)
+DTSTART:20240112T163000
+DTEND:20240112T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6060
+ATTENDEE:Moda in tekstilije, 2. letnik (mt)
+ATTENDEE:Notranja oprema, 2. letnik IZREDNI (no-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA OBLIKOVANJE TEKSTILIJ V (SOTI)\, Vaje (V)\n
+ Letniki: Moda in tekstilije\, 2. letnik (mt)\nIzvajalci: Jana Mršnik\nPro
+ stor: FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+ORGANIZER:Jana Mršnik
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4508
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA MODNO IN EKO OBLIKOVANJE (SMEO)\, Predavanje (P)
+DTSTART:20240104T100000
+DTEND:20240104T140000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5868
+ATTENDEE:Erasmus (Erasmus+)
+ATTENDEE:Moda in tekstilije, 3. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA MODNO IN EKO OBLIKOVANJE (SMEO)\, Predavanj
+ e (P)\nLetniki: Erasmus (Erasmus+)\, Moda in tekstilije\, 3. letnik (mt)\n
+ Izvajalci: Matea Benedetti\nProstor: FD Laboratorij za produktno oblikovan
+ je 1 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 1 (1. nadstropje)
+ORGANIZER:Matea Benedetti
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4510
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA MODNO IN EKO OBLIKOVANJE (SMEO)\, Predavanje (P)
+DTSTART:20240110T090000
+DTEND:20240110T130000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5869
+ATTENDEE:Erasmus (Erasmus+)
+ATTENDEE:Moda in tekstilije, 3. letnik (mt)
+CATEGORIES:Entry,Special
+COLOR:forestgreen
+DESCRIPTION:Predmet: STUDIO ZA MODNO IN EKO OBLIKOVANJE (SMEO)\, Predavanj
+ e (P)\nLetniki: Erasmus (Erasmus+)\, Moda in tekstilije\, 3. letnik (mt)\n
+ Izvajalci: Matea Benedetti\nProstor: FD Laboratorij za produktno oblikovan
+ je 1 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 1 (1. nadstropje)
+ORGANIZER:Matea Benedetti
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4510
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA MODNO IN EKO OBLIKOVANJE (SMEO)\, Predavanje (P)
+DTSTART:20240118T100000
+DTEND:20240118T140000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5870
+ATTENDEE:Erasmus (Erasmus+)
+ATTENDEE:Moda in tekstilije, 3. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA MODNO IN EKO OBLIKOVANJE (SMEO)\, Predavanj
+ e (P)\nLetniki: Erasmus (Erasmus+)\, Moda in tekstilije\, 3. letnik (mt)\n
+ Izvajalci: Matea Benedetti\nProstor: FD Laboratorij za produktno oblikovan
+ je 1 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 1 (1. nadstropje)
+ORGANIZER:Matea Benedetti
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4510
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA MODNO IN EKO OBLIKOVANJE (SMEO)\, Vaje (V)
+DTSTART:20240109T100000
+DTEND:20240109T140000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5926
+ATTENDEE:Erasmus (Erasmus+)
+ATTENDEE:Moda in tekstilije, 3. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA MODNO IN EKO OBLIKOVANJE (SMEO)\, Vaje (V)\
+ nLetniki: Erasmus (Erasmus+)\, Moda in tekstilije\, 3. letnik (mt)\nIzvaja
+ lci: Matea Benedetti\nProstor: FD Laboratorij za produktno oblikovanje 1 (
+ 1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 1 (1. nadstropje)
+ORGANIZER:Matea Benedetti
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4518
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA MODNO IN EKO OBLIKOVANJE (SMEO)\, Vaje (V)
+DTSTART:20240116T100000
+DTEND:20240116T140000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:5927
+ATTENDEE:Erasmus (Erasmus+)
+ATTENDEE:Moda in tekstilije, 3. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA MODNO IN EKO OBLIKOVANJE (SMEO)\, Vaje (V)\
+ nLetniki: Erasmus (Erasmus+)\, Moda in tekstilije\, 3. letnik (mt)\nIzvaja
+ lci: Matea Benedetti\nProstor: FD Laboratorij za produktno oblikovanje 1 (
+ 1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 1 (1. nadstropje)
+ORGANIZER:Matea Benedetti
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4518
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RAZVOJ KROJEV IN TEHNIČNI RAZVOJ KOLEKCIJE (RKITRK)\, Vaje (V)
+DTSTART:20240108T090000
+DTEND:20240108T130000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6622
+ATTENDEE:Moda in tekstilije, 3. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: RAZVOJ KROJEV IN TEHNIČNI RAZVOJ KOLEKCIJE (RKITRK)\
+ , Vaje (V)\nLetniki: Moda in tekstilije\, 3. letnik (mt)\nIzvajalci: Damja
+ na Celcar\, Lidija Rotar\nProstor: FD Laboratorij za vizualne komunikacije
+  (1.nadstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Damjana Celcar, Lidija Rotar
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4531
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA OBLIKOVANJE TEKSTILJ V PROSTORU (IZREDNI) (SZOTVP (IZR))
+ \, Vaje (V)
+DTSTART:20240110T163000
+DTEND:20240110T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6028
+ATTENDEE:Moda in tekstilije, 2. letnik (mt)
+ATTENDEE:Notranja oprema, 2. letnik IZREDNI (no-izredni)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA OBLIKOVANJE TEKSTILJ V PROSTORU (IZREDNI) (
+ SZOTVP (IZR))\, Vaje (V)\nLetniki: Notranja oprema\, 2. letnik IZREDNI (no
+ -izredni)\nIzvajalci: Jana Mršnik\nProstor: FD Laboratorij za produktno o
+ blikovanje 1 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 1 (1. nadstropje)
+ORGANIZER:Jana Mršnik
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4580
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TEORIJA BARV VK1R (TB VK1R)\, Predavanje (P)
+DTSTART:20240111T083000
+DTEND:20240111T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6035
+ATTENDEE:Vizualne komunikacije, 1. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: TEORIJA BARV VK1R (TB VK1R)\, Predavanje (P)\nLetniki
+ : Vizualne komunikacije\, 1. letnik (vk)\nIzvajalci: Mojca Puncer\nProstor
+ : FD Laboratorij za vizualne komunikacije (1.nadstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Mojca Puncer
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4586
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RAZVOJ KROJEV IN TEHNIČNI RAZVOJ KOLEKCIJE (RKITRK)\, Vaje (V)
+DTSTART:20240115T120000
+DTEND:20240115T160000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6054
+ATTENDEE:Moda in tekstilije, 3. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: RAZVOJ KROJEV IN TEHNIČNI RAZVOJ KOLEKCIJE (RKITRK)\
+ , Vaje (V)\nLetniki: Moda in tekstilije\, 3. letnik (mt)\nIzvajalci: Damja
+ na Celcar\, Lidija Rotar\nProstor: FD Laboratorij za produktno oblikovanje
+  2 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+ORGANIZER:Damjana Celcar, Lidija Rotar
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4605
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RAZVOJ KROJEV IN TEHNIČNI RAZVOJ KOLEKCIJE (RKITRK)\, Vaje (V)
+DTSTART:20240111T123000
+DTEND:20240111T154500
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6058
+ATTENDEE:Moda in tekstilije, 3. letnik (mt)
+CATEGORIES:Entry,Special
+COLOR:forestgreen
+DESCRIPTION:Predmet: RAZVOJ KROJEV IN TEHNIČNI RAZVOJ KOLEKCIJE (RKITRK)\
+ , Vaje (V)\nLetniki: Moda in tekstilije\, 3. letnik (mt)\nIzvajalci: Damja
+ na Celcar\nProstor: FD Računalniška soba (1. nadstropje)
+LOCATION:FD Računalniška soba (1. nadstropje)
+ORGANIZER:Damjana Celcar
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4607
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RAZVOJ KROJEV IN TEHNIČNI RAZVOJ KOLEKCIJE (RKITRK)\, Vaje (V)
+DTSTART:20240117T100000
+DTEND:20240117T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6632
+ATTENDEE:Moda in tekstilije, 3. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: RAZVOJ KROJEV IN TEHNIČNI RAZVOJ KOLEKCIJE (RKITRK)\
+ , Vaje (V)\nLetniki: Moda in tekstilije\, 3. letnik (mt)\nIzvajalci: Damja
+ na Celcar\nProstor: FD Računalniška soba (1. nadstropje)
+LOCATION:FD Računalniška soba (1. nadstropje)
+ORGANIZER:Damjana Celcar
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4608
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TEKSTILNI MATERIALI (TM)\, Vaje (V)
+DTSTART:20240117T163000
+DTEND:20240117T184500
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6201
+ATTENDEE:Moda in tekstilije, 1. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: TEKSTILNI MATERIALI (TM)\, Vaje (V)\nLetniki: Moda in
+  tekstilije\, 1. letnik (mt)\nIzvajalci: Tanja Pilar\nProstor: FD Laborato
+ rij za produktno oblikovanje 2 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+ORGANIZER:Tanja Pilar
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4638
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ZGODOVINA OBLAČENJA (ZO)\, Predavanje (P)
+DTSTART:20240118T130000
+DTEND:20240118T153000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6202
+ATTENDEE:Moda in tekstilije, 1. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: ZGODOVINA OBLAČENJA (ZO)\, Predavanje (P)\nLetniki: 
+ Moda in tekstilije\, 1. letnik (mt)\nIzvajalci: Karin Košak Arzenšek\nPr
+ ostor: FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+ORGANIZER:Karin Košak Arzenšek
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4639
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TEMELJI OBLIKOVANJA IN KONCEPTI (TOK)\, Predavanje (P)
+DTSTART:20240105T123000
+DTEND:20240105T163000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6209
+ATTENDEE:Vizualne komunikacije, 1. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: TEMELJI OBLIKOVANJA IN KONCEPTI (TOK)\, Predavanje (P
+ )\nLetniki: Vizualne komunikacije\, 1. letnik (vk)\nIzvajalci: Nataša Vug
+ a\nProstor: FD Računalniška soba (1. nadstropje)
+LOCATION:FD Računalniška soba (1. nadstropje)
+ORGANIZER:Nataša Vuga
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4645
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FENG SHUI (VŽU) (FENG SHUI (VŽU))\, Predavanje (P)
+DTSTART:20240125T163000
+DTEND:20240125T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6421
+ATTENDEE:Oblikovanje prostora (vzu)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: FENG SHUI (VŽU) (FENG SHUI (VŽU))\, Predavanje (P)\
+ nLetniki: Oblikovanje prostora (vzu)\nIzvajalci: Špela Kryžanowski\nPros
+ tor: FD Laboratorij za kreativne industrije (pritličje)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Špela Kryžanowski
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4754
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FENG SHUI (VŽU) (FENG SHUI (VŽU))\, Predavanje (P)
+DTSTART:20240201T163000
+DTEND:20240201T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6422
+ATTENDEE:Oblikovanje prostora (vzu)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: FENG SHUI (VŽU) (FENG SHUI (VŽU))\, Predavanje (P)\
+ nLetniki: Oblikovanje prostora (vzu)\nIzvajalci: Špela Kryžanowski\nPros
+ tor: FD Laboratorij za kreativne industrije (pritličje)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Špela Kryžanowski
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4754
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AvtoCad (ACad)\, Predavanje (P)
+DTSTART:20240215T163000
+DTEND:20240215T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6423
+ATTENDEE:Notranja oprema, 1. letnik (no)
+ATTENDEE:Oblikovanje prostora (vzu)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: AvtoCad (ACad)\, Predavanje (P)\nLetniki: Notranja op
+ rema\, 1. letnik (no)\nIzvajalci: Petra Kocjančič\nProstor: FD Računaln
+ iška soba (1. nadstropje)
+LOCATION:FD Računalniška soba (1. nadstropje)
+ORGANIZER:Petra Kocjančič
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4755
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AUTOCAD (VŽU) (AUTOCAD (VŽU))\, Predavanje (P)
+DTSTART:20240229T163000
+DTEND:20240229T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6424
+ATTENDEE:Oblikovanje prostora (vzu)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: AUTOCAD (VŽU) (AUTOCAD (VŽU))\, Predavanje (P)\nLet
+ niki: Oblikovanje prostora (vzu)\nIzvajalci: Petra Kocjančič\nProstor: F
+ D Računalniška soba (1. nadstropje)
+LOCATION:FD Računalniška soba (1. nadstropje)
+ORGANIZER:Petra Kocjančič
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4756
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RISANJE PERSPEKTIVE PROSTORA (VŽU) (RISANJE (VŽU))\, Vaje (V)
+DTSTART:20231228T163000
+DTEND:20231228T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6446
+ATTENDEE:Oblikovanje prostora (vzu)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: RISANJE PERSPEKTIVE PROSTORA (VŽU) (RISANJE (VŽU))\
+ , Vaje (V)\nLetniki: Oblikovanje prostora (vzu)\nIzvajalci: Živa Slavec\n
+ Prostor: FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+ORGANIZER:Živa Slavec
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4762
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RISANJE PERSPEKTIVE PROSTORA (VŽU) (RISANJE (VŽU))\, Vaje (V)
+DTSTART:20240104T163000
+DTEND:20240104T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6447
+ATTENDEE:Oblikovanje prostora (vzu)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: RISANJE PERSPEKTIVE PROSTORA (VŽU) (RISANJE (VŽU))\
+ , Vaje (V)\nLetniki: Oblikovanje prostora (vzu)\nIzvajalci: Živa Slavec\n
+ Prostor: FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+ORGANIZER:Živa Slavec
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4762
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RISANJE PERSPEKTIVE PROSTORA (VŽU) (RISANJE (VŽU))\, Vaje (V)
+DTSTART:20240118T163000
+DTEND:20240118T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6448
+ATTENDEE:Oblikovanje prostora (vzu)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: RISANJE PERSPEKTIVE PROSTORA (VŽU) (RISANJE (VŽU))\
+ , Vaje (V)\nLetniki: Oblikovanje prostora (vzu)\nIzvajalci: Živa Slavec\n
+ Prostor: FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+ORGANIZER:Živa Slavec
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4762
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TEMELJI OBLIKOVANJA IN KONCEPTI (TOK)\, Predavanje (P)
+DTSTART:20240112T083000
+DTEND:20240112T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6449
+ATTENDEE:Vizualne komunikacije, 1. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: TEMELJI OBLIKOVANJA IN KONCEPTI (TOK)\, Predavanje (P
+ )\nLetniki: Vizualne komunikacije\, 1. letnik (vk)\nIzvajalci: Nataša Vug
+ a\nProstor: FD Laboratorij za vizualne komunikacije (1.nadstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Nataša Vuga
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4763
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:KREATIVNO VODENJE (KV)\, Predavanje (P)
+DTSTART:20240105T163000
+DTEND:20240105T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6500
+ATTENDEE:Dizajn management, 1. letnik MAG (dm-mag)
+ATTENDEE:Dizajn management, 2. letnik MAG (dm-mag)
+ATTENDEE:Moda in tekstilije, 1. letnik MAG (mt-mag)
+ATTENDEE:Moda in tekstilije, 2. letnik MAG (mt-mag)
+ATTENDEE:Notranja oprema, 1. letnik MAG (no-mag)
+ATTENDEE:Notranja oprema, 2. letnik MAG (no-mag)
+ATTENDEE:Vizualne komunikacije, 1. letnik MAG (vk-mag)
+ATTENDEE:Vizualne komunikacije, 2. letnik MAG (vk-mag)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: KREATIVNO VODENJE (KV)\, Predavanje (P)\nLetniki: Diz
+ ajn management\, 1. letnik MAG (dm-mag)\, Dizajn management\, 2. letnik MA
+ G (dm-mag)\, Moda in tekstilije\, 1. letnik MAG (mt-mag)\, Moda in tekstil
+ ije\, 2. letnik MAG (mt-mag)\, Notranja oprema\, 1. letnik MAG (no-mag)\, 
+ Notranja oprema\, 2. letnik MAG (no-mag)\, Vizualne komunikacije\, 1. letn
+ ik MAG (vk-mag)\, Vizualne komunikacije\, 2. letnik MAG (vk-mag)\nIzvajalc
+ i: Alenka Braček Lalić\nProstor: FD Karierni center (2. nadstropje)
+LOCATION:FD Karierni center (2. nadstropje)
+ORGANIZER:Alenka Braček Lalić
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4803
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:KREATIVNO VODENJE (KV)\, Predavanje (P)
+DTSTART:20240112T163000
+DTEND:20240112T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6501
+ATTENDEE:Dizajn management, 1. letnik MAG (dm-mag)
+ATTENDEE:Dizajn management, 2. letnik MAG (dm-mag)
+ATTENDEE:Moda in tekstilije, 1. letnik MAG (mt-mag)
+ATTENDEE:Moda in tekstilije, 2. letnik MAG (mt-mag)
+ATTENDEE:Notranja oprema, 1. letnik MAG (no-mag)
+ATTENDEE:Notranja oprema, 2. letnik MAG (no-mag)
+ATTENDEE:Vizualne komunikacije, 1. letnik MAG (vk-mag)
+ATTENDEE:Vizualne komunikacije, 2. letnik MAG (vk-mag)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: KREATIVNO VODENJE (KV)\, Predavanje (P)\nLetniki: Diz
+ ajn management\, 1. letnik MAG (dm-mag)\, Dizajn management\, 2. letnik MA
+ G (dm-mag)\, Moda in tekstilije\, 1. letnik MAG (mt-mag)\, Moda in tekstil
+ ije\, 2. letnik MAG (mt-mag)\, Notranja oprema\, 1. letnik MAG (no-mag)\, 
+ Notranja oprema\, 2. letnik MAG (no-mag)\, Vizualne komunikacije\, 1. letn
+ ik MAG (vk-mag)\, Vizualne komunikacije\, 2. letnik MAG (vk-mag)\nIzvajalc
+ i: Alenka Braček Lalić\nProstor: FD Karierni center (2. nadstropje)
+LOCATION:FD Karierni center (2. nadstropje)
+ORGANIZER:Alenka Braček Lalić
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4803
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:KREATIVNO VODENJE (KV)\, Predavanje (P)
+DTSTART:20240118T163000
+DTEND:20240118T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6502
+ATTENDEE:Dizajn management, 1. letnik MAG (dm-mag)
+ATTENDEE:Dizajn management, 2. letnik MAG (dm-mag)
+ATTENDEE:Moda in tekstilije, 1. letnik MAG (mt-mag)
+ATTENDEE:Moda in tekstilije, 2. letnik MAG (mt-mag)
+ATTENDEE:Notranja oprema, 1. letnik MAG (no-mag)
+ATTENDEE:Notranja oprema, 2. letnik MAG (no-mag)
+ATTENDEE:Vizualne komunikacije, 1. letnik MAG (vk-mag)
+ATTENDEE:Vizualne komunikacije, 2. letnik MAG (vk-mag)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: KREATIVNO VODENJE (KV)\, Predavanje (P)\nLetniki: Diz
+ ajn management\, 1. letnik MAG (dm-mag)\, Dizajn management\, 2. letnik MA
+ G (dm-mag)\, Moda in tekstilije\, 1. letnik MAG (mt-mag)\, Moda in tekstil
+ ije\, 2. letnik MAG (mt-mag)\, Notranja oprema\, 1. letnik MAG (no-mag)\, 
+ Notranja oprema\, 2. letnik MAG (no-mag)\, Vizualne komunikacije\, 1. letn
+ ik MAG (vk-mag)\, Vizualne komunikacije\, 2. letnik MAG (vk-mag)\nIzvajalc
+ i: Alenka Braček Lalić\nProstor: FD Karierni center (2. nadstropje)
+LOCATION:FD Karierni center (2. nadstropje)
+ORGANIZER:Alenka Braček Lalić
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4804
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA MODNO IN EKO OBLIKOVANJE (SMEO)\, Vaje (V)
+DTSTART:20240112T100000
+DTEND:20240112T140000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6557
+ATTENDEE:Erasmus (Erasmus+)
+ATTENDEE:Moda in tekstilije, 3. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA MODNO IN EKO OBLIKOVANJE (SMEO)\, Vaje (V)\
+ nLetniki: Erasmus (Erasmus+)\, Moda in tekstilije\, 3. letnik (mt)\nIzvaja
+ lci: Matea Benedetti\nProstor: FD Laboratorij za produktno oblikovanje 1 (
+ 1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 1 (1. nadstropje)
+ORGANIZER:Matea Benedetti
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4842
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:INTERAKTIVNO IN SPLETNO OBLIKOVANJE ll (ISO2)\, Predavanje (P)
+DTSTART:20240117T123000
+DTEND:20240117T163000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6569
+ATTENDEE:Vizualne komunikacije, 3. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: INTERAKTIVNO IN SPLETNO OBLIKOVANJE ll (ISO2)\, Preda
+ vanje (P)\nLetniki: Vizualne komunikacije\, 3. letnik (vk)\nIzvajalci: Dom
+ en Lo\nProstor: FD Računalniška soba (1. nadstropje)
+LOCATION:FD Računalniška soba (1. nadstropje)
+ORGANIZER:Domen Lo
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4852
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:KOSTUMOGRAFIJA IZBIRNI (KOSTUMOGRAFIJA IZBIRNI)\, Predavanje (P)
+DTSTART:20240126T163000
+DTEND:20240126T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6580
+ATTENDEE:Dizajn management, 2. letnik (dm)
+ATTENDEE:Dizajn management, 3. letnik (dm)
+ATTENDEE:Moda in tekstilije, 2. letnik (mt)
+ATTENDEE:Moda in tekstilije, 3. letnik (mt)
+ATTENDEE:Notranja oprema, 2. letnik (no)
+ATTENDEE:Notranja oprema, 3. letnik (no)
+ATTENDEE:Notranja oprema, 2. letnik IZREDNI (no-izredni)
+ATTENDEE:Notranja oprema, 3. letnik IZREDNI (no-izredni)
+ATTENDEE:Vizualne komunikacije, 2. letnik (vk)
+ATTENDEE:Vizualne komunikacije, 3. letnik (vk)
+ATTENDEE:Vizualne komunikacije, 2. letnik IZREDNI (vk-izredni)
+ATTENDEE:Vizualne komunikacije, 3. letnik IZREDNI (vk-izredni)
+CATEGORIES:Entry,Special
+COLOR:forestgreen
+DESCRIPTION:Predmet: KOSTUMOGRAFIJA IZBIRNI (KOSTUMOGRAFIJA IZBIRNI)\, Pre
+ davanje (P)\nLetniki: \nIzvajalci: Matea Benedetti\nProstor: FD Laboratori
+ j za kreativne industrije (pritličje)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Matea Benedetti
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4863
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA OBLIKOVANJE IN TISKANJE TEKSTILIJ (SOTT)\, Predavanje (P
+ )
+DTSTART:20240110T130000
+DTEND:20240110T143000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6594
+ATTENDEE:Moda in tekstilije, 1. letnik (mt)
+ATTENDEE:Moda in tekstilije, 2. letnik (mt)
+ATTENDEE:Moda in tekstilije, 3. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA OBLIKOVANJE IN TISKANJE TEKSTILIJ (SOTT)\, 
+ Predavanje (P)\nLetniki: Moda in tekstilije\, 2. letnik (mt)\nIzvajalci: A
+ lenka Marsch\nProstor: FD Laboratorij za kreativne industrije (pritličje)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Alenka Marsch
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4875
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:INTERAKTIVNO OBLIKOVANJE I. (IO I.)\, Predavanje (P)
+DTSTART:20240110T123000
+DTEND:20240110T163000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6598
+ATTENDEE:Vizualne komunikacije, 2. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: INTERAKTIVNO OBLIKOVANJE I. (IO I.)\, Predavanje (P)\
+ nLetniki: Vizualne komunikacije\, 2. letnik (vk)\nIzvajalci: Domen Lo\nPro
+ stor: FD Računalniška soba (1. nadstropje)
+LOCATION:FD Računalniška soba (1. nadstropje)
+ORGANIZER:Domen Lo
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4876
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DIGITALNO OBLIKOVANJE I (DO1)\, Vaje (V)
+DTSTART:20240118T100000
+DTEND:20240118T140000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6603
+ATTENDEE:Moda in tekstilije, 2. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: DIGITALNO OBLIKOVANJE I (DO1)\, Vaje (V)\nLetniki: Mo
+ da in tekstilije\, 2. letnik (mt)\nIzvajalci: Damjana Celcar\nProstor: FD 
+ Računalniška soba (1. nadstropje)
+LOCATION:FD Računalniška soba (1. nadstropje)
+ORGANIZER:Damjana Celcar
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4879
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA NAČRTOVANJE VIZUALNIH KOMUNIKACIJ V - INFORMACIJSKI DIZ
+ AJN (SNVK RED)\, Predavanje (P)
+DTSTART:20240103T083000
+DTEND:20240103T110000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6604
+ATTENDEE:Vizualne komunikacije, 3. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA NAČRTOVANJE VIZUALNIH KOMUNIKACIJ V - INFO
+ RMACIJSKI DIZAJN (SNVK RED)\, Predavanje (P)\nLetniki: Vizualne komunikaci
+ je\, 3. letnik (vk)\nIzvajalci: Martina Kač Nemanič\nProstor: FD Laborat
+ orij za vizualne komunikacije (1.nadstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Martina Kač Nemanič
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4880
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DIPLOME IN PRAKSE (3. letnik VK) (DIP (3. letnik VK))\, Predavanje
+  (P)
+DTSTART:20240103T110000
+DTEND:20240103T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6605
+ATTENDEE:Vizualne komunikacije, 3. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: DIPLOME IN PRAKSE (3. letnik VK) (DIP (3. letnik VK))
+ \, Predavanje (P)\nLetniki: Vizualne komunikacije\, 3. letnik (vk)\nIzvaja
+ lci: Mileva Mišković\nProstor: FD Laboratorij za vizualne komunikacije (
+ 1.nadstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Mileva Mišković
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4881
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA OBLIKOVANJE IN TISKANJE TEKSTILIJ (SOTT)\, Vaje (V)
+DTSTART:20240108T090000
+DTEND:20240108T113000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6610
+ATTENDEE:Moda in tekstilije, 2. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA OBLIKOVANJE IN TISKANJE TEKSTILIJ (SOTT)\, 
+ Vaje (V)\nLetniki: Moda in tekstilije\, 2. letnik (mt)\nIzvajalci: Jana Mr
+ šnik\nProstor: FD Laboratorij za produktno oblikovanje 1 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 1 (1. nadstropje)
+ORGANIZER:Jana Mršnik
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4882
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:INTERAKTIVNO OBLIKOVANJE I. (IO I.)\, Predavanje (P)
+DTSTART:20240115T083000
+DTEND:20240115T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6619
+ATTENDEE:Vizualne komunikacije, 2. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: INTERAKTIVNO OBLIKOVANJE I. (IO I.)\, Predavanje (P)\
+ nLetniki: Vizualne komunikacije\, 2. letnik (vk)\nIzvajalci: Domen Lo\nPro
+ stor: FD Računalniška soba (1. nadstropje)
+LOCATION:FD Računalniška soba (1. nadstropje)
+ORGANIZER:Domen Lo
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4889
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Studio za konceptualno produktno oblikovanje I. (SKPO I.)\, Predav
+ anje (P)
+DTSTART:20240118T163000
+DTEND:20240118T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6620
+ATTENDEE:Dizajn management, 1. letnik (dm)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: Studio za konceptualno produktno oblikovanje I. (SKPO
+  I.)\, Predavanje (P)\nLetniki: Dizajn management\, 1. letnik (dm)\nIzvaja
+ lci: Domen Lo\nProstor: FD Računalniška soba (1. nadstropje)
+LOCATION:FD Računalniška soba (1. nadstropje)
+ORGANIZER:Domen Lo
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4890
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:KONSTRUKCIJA IN MODELIRANJE II (KIM II)\, Vaje (V)
+DTSTART:20240111T113000
+DTEND:20240111T140000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6626
+ATTENDEE:Moda in tekstilije, 2. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: KONSTRUKCIJA IN MODELIRANJE II (KIM II)\, Vaje (V)\nL
+ etniki: Moda in tekstilije\, 2. letnik (mt)\nIzvajalci: Lidija Rotar\nPros
+ tor: FD Laboratorij za produktno oblikovanje 1 (1. nadstropje)
+LOCATION:FD Laboratorij za produktno oblikovanje 1 (1. nadstropje)
+ORGANIZER:Lidija Rotar
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4893
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA KONCEPTUALNO MODNO OBLIKOVANJE (SKMO)\, Predavanje (P)
+DTSTART:20240115T100000
+DTEND:20240115T113000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:6627
+ATTENDEE:Moda in tekstilije, 1. letnik (mt)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA KONCEPTUALNO MODNO OBLIKOVANJE (SKMO)\, Pre
+ davanje (P)\nLetniki: Moda in tekstilije\, 1. letnik (mt)\nIzvajalci: Tanj
+ a Devetak\nProstor: FD Laboratorij za produktno oblikovanje 2 (1. nadstrop
+ je)
+LOCATION:FD Laboratorij za produktno oblikovanje 2 (1. nadstropje)
+ORGANIZER:Tanja Devetak
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4894
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Studio za konceptualno produktno oblikovanje I. (SKPO I.)\, Vaje (
+ V)
+DTSTART:20240104T163000
+DTEND:20240104T203000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:4618
+ATTENDEE:Dizajn management, 1. letnik (dm)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: Studio za konceptualno produktno oblikovanje I. (SKPO
+  I.)\, Vaje (V)\nLetniki: Dizajn management\, 1. letnik (dm)\nIzvajalci: D
+ omen Lo\nProstor: FD Računalniška soba (1. nadstropje)
+LOCATION:FD Računalniška soba (1. nadstropje)
+ORGANIZER:Domen Lo
+RELATED-TO:fd-AFLABS-URNIK:srecanje:3962
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA NAČRTOVANJE VIZUALNIH KOMUNIKACIJ I - SEMANTIKA IN SINT
+ AKSA (SNVK1-SS)\, Predavanje (P)
+DTSTART:20240108T083000
+DTEND:20240108T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:4616
+ATTENDEE:Vizualne komunikacije, 1. letnik (vk)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA NAČRTOVANJE VIZUALNIH KOMUNIKACIJ I - SEMA
+ NTIKA IN SINTAKSA (SNVK1-SS)\, Predavanje (P)\nLetniki: Vizualne komunikac
+ ije\, 1. letnik (vk)\nIzvajalci: Martina Kač Nemanič\nProstor: FD Labora
+ torij za vizualne komunikacije (1.nadstropje)
+LOCATION:FD Laboratorij za vizualne komunikacije (1.nadstropje)
+ORGANIZER:Martina Kač Nemanič
+RELATED-TO:fd-AFLABS-URNIK:srecanje:3972
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA KONCEPTNO NOTRANJE OBLIKOVANJE - VIZUALIZACIJSKE TEHNIKE
+  (SZKNO (1-NO R))\, Vaje (V)
+DTSTART:20240104T083000
+DTEND:20240104T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:4625
+ATTENDEE:Notranja oprema, 1. letnik (no)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA KONCEPTNO NOTRANJE OBLIKOVANJE - VIZUALIZAC
+ IJSKE TEHNIKE (SZKNO (1-NO R))\, Vaje (V)\nLetniki: Notranja oprema\, 1. l
+ etnik (no)\nIzvajalci: Živa Slavec\nProstor: FD Laboratorij za kreativne 
+ industrije (pritličje)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Živa Slavec
+RELATED-TO:fd-AFLABS-URNIK:srecanje:3975
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA KONCEPTNO NOTRANJE OBLIKOVANJE - VIZUALIZACIJSKE TEHNIKE
+  (SZKNO (1-NO R))\, Vaje (V)
+DTSTART:20240111T083000
+DTEND:20240111T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:4626
+ATTENDEE:Notranja oprema, 1. letnik (no)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA KONCEPTNO NOTRANJE OBLIKOVANJE - VIZUALIZAC
+ IJSKE TEHNIKE (SZKNO (1-NO R))\, Vaje (V)\nLetniki: Notranja oprema\, 1. l
+ etnik (no)\nIzvajalci: Živa Slavec\nProstor: FD Laboratorij za kreativne 
+ industrije (pritličje)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Živa Slavec
+RELATED-TO:fd-AFLABS-URNIK:srecanje:3975
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STUDIO ZA KONCEPTNO NOTRANJE OBLIKOVANJE - VIZUALIZACIJSKE TEHNIKE
+  (SZKNO (1-NO R))\, Vaje (V)
+DTSTART:20240109T123000
+DTEND:20240109T163000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:4627
+ATTENDEE:Notranja oprema, 1. letnik (no)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: STUDIO ZA KONCEPTNO NOTRANJE OBLIKOVANJE - VIZUALIZAC
+ IJSKE TEHNIKE (SZKNO (1-NO R))\, Vaje (V)\nLetniki: Notranja oprema\, 1. l
+ etnik (no)\nIzvajalci: Živa Slavec\nProstor: FD Laboratorij za kreativne 
+ industrije (pritličje)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Živa Slavec
+RELATED-TO:fd-AFLABS-URNIK:srecanje:3976
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TEORIJA BARV (TB (1-NO R))\, Predavanje (P)
+DTSTART:20240103T083000
+DTEND:20240103T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:4736
+ATTENDEE:Notranja oprema, 1. letnik (no)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: TEORIJA BARV (TB (1-NO R))\, Predavanje (P)\nLetniki:
+  Notranja oprema\, 1. letnik (no)\nIzvajalci: Tomaž Novljan\nProstor: FD 
+ Laboratorij za kreativne industrije (pritličje)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Tomaž Novljan
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4004
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TEORIJA BARV (TB (1-NO R))\, Predavanje (P)
+DTSTART:20240110T083000
+DTEND:20240110T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:4737
+ATTENDEE:Notranja oprema, 1. letnik (no)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: TEORIJA BARV (TB (1-NO R))\, Predavanje (P)\nLetniki:
+  Notranja oprema\, 1. letnik (no)\nIzvajalci: Tomaž Novljan\nProstor: FD 
+ Laboratorij za kreativne industrije (pritličje)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Tomaž Novljan
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4004
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TEORIJA BARV (TB (1-NO R))\, Predavanje (P)
+DTSTART:20240117T083000
+DTEND:20240117T123000
+DTSTAMP:20240127T110303Z
+UID:fd-AFLABS-URNIK:premaknjeno-srecanje:4738
+ATTENDEE:Notranja oprema, 1. letnik (no)
+CATEGORIES:Entry,Standard
+COLOR:darkgreen
+DESCRIPTION:Predmet: TEORIJA BARV (TB (1-NO R))\, Predavanje (P)\nLetniki:
+  Notranja oprema\, 1. letnik (no)\nIzvajalci: Tomaž Novljan\nProstor: FD 
+ Laboratorij za kreativne industrije (pritličje)
+LOCATION:FD Laboratorij za kreativne industrije (pritličje)
+ORGANIZER:Tomaž Novljan
+RELATED-TO:fd-AFLABS-URNIK:srecanje:4004
+X-WR-TIMEZONE:Europe/Ljubljana
+END:VEVENT
+END:VCALENDAR
