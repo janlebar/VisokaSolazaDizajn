@@ -1,5 +1,5 @@
 import icalendar
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # Mapping of weekday names in Slovenian
 weekday_names_slovenian = {
@@ -62,20 +62,36 @@ def convert_ics_to_html(ics_file_path):
 
     # Sort events by start time
     events.sort(key=lambda x: x[0])
+    
+    
+    # Create a list of all dates in the week
+    start_date = events[0][0].date()
+    end_date = events[-1][0].date()
+    delta = timedelta(days=1)
+    week_dates = []
+    current_date = start_date
+    while current_date <= end_date:
+        week_dates.append(current_date)
+        current_date += delta
 
     # Add sorted events to HTML output
-    for event in events:
-        html_output += f"<tr style='{event[7]}'>"
-        html_output += f"<td>{event[2]}</td>"
-        html_output += f"<td>{event[3]} - {event[4]}</td>"
-        html_output += f"<td>{event[1]}</td>"
-        html_output += f"<td>{event[5]}</td>"
-        html_output += f"<td>{event[6]}</td>"
-        html_output += "</tr>"
-
-    # Add empty rows for sobota and nedelja
-    html_output += "<tr style='background-color: lightgray;'><td></td><td></td><td></td><td></td><td></td></tr>"
-    html_output += "<tr style='background-color: lightgray;'><td></td><td></td><td></td><td></td><td></td></tr>"
+    for date in week_dates:
+        events_on_date = [event for event in events if event[0].date() == date]
+        if events_on_date:
+            for event in events_on_date:
+                html_output += f"<tr style='{event[7]}'>"
+                html_output += f"<td>{event[2]}</td>"
+                html_output += f"<td>{event[3]} - {event[4]}</td>"
+                html_output += f"<td>{event[1]}</td>"
+                html_output += f"<td>{event[5]}</td>"
+                html_output += f"<td>{event[6]}</td>"
+                html_output += "</tr>"
+        else:
+            day_in_week = weekday_names_slovenian[date.weekday()]  # Get Slovenian day name
+            date_str = date.strftime("%d. %B") + f" {day_in_week}"  # Format date
+            html_output += f"<tr style='background-color: lightgray;'>"
+            html_output += f"<td>{date_str}</td><td></td><td></td><td></td><td></td>"
+            html_output += "</tr>"
 
     html_output += "</table>"
     html_output += "</body></html>"
