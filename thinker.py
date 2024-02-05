@@ -77,29 +77,30 @@ def convert_ics_to_html(ics_file_path):
     # Sort events by start time
     events.sort(key=lambda x: x[0])
 
-
-
-
-
     # Start building HTML output
     html_output = "<html><head><title>iCalendar Events</title></head><body>"
     html_output += "<style>table { border-collapse: collapse; } th, td { padding: 8px; border: 1px solid black; }</style>"
 
 
-    # Calculate the sum of duration_hours for each unique summary
-    summary_duration = {}
+    # Calculate the sum of duration_hours and get professor_str for each unique summary
+    summary_info = {}
     for event in events:
         summary = event[1]
         duration_hours = event[5]
-        if summary in summary_duration:
-            summary_duration[summary] += duration_hours
+        professor_str = event[6]
+        if summary in summary_info:
+            summary_info[summary][0] += duration_hours
+            if professor_str not in summary_info[summary][1]:
+                summary_info[summary][1].append(professor_str)
         else:
-            summary_duration[summary] = duration_hours
+            summary_info[summary] = [duration_hours, [professor_str]]
 
     # Add title before the grid
     html_output += "<div>"
-    for summary, total_duration in summary_duration.items():
-        html_output += f"<p><strong>{summary}</strong> : {total_duration} ur</p>"
+    for summary, info in summary_info.items():
+        total_duration = info[0]
+        professors = ', '.join(info[1])
+        html_output += f"<p><strong>{summary}</strong>: {total_duration} hours, Professors: {professors}</p>"
     html_output += "</div>"
 
     html_output += "<table>"
