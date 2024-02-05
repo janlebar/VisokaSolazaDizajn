@@ -125,10 +125,12 @@ def convert_ics_to_html(ics_file_path):
             for event in events_on_date:
                 if date.month != current_month:
                     current_month = date.month
-                    month_name = month_names_slovenian[current_month]
+                    month_name = month_names_slovenian[current_month]  # Get Slovenian month name
                     html_output += f"<tr><th colspan='6'>{month_name}</th></tr>"
+                day_in_week = weekday_names_slovenian[date.weekday()]  # Get Slovenian day name
+                date_str = date.strftime("%d. ") + month_names_slovenian[date.month] + f" {day_in_week}"  # Oblikuj datum
                 html_output += f"<tr style='{event[8]}'>"
-                html_output += f"<td>{date.day}. {month_name}</td>"  # Changed to include day and month name
+                html_output += f"<td>{date_str}</td>"  # Changed to include day and month name
                 html_output += f"<td>{event[3]} - {event[4]}</td>"
                 html_output += f"<td>{event[5]}</td>"
                 html_output += f"<td>{event[1]}</td>"
@@ -137,7 +139,7 @@ def convert_ics_to_html(ics_file_path):
                 html_output += "</tr>"
         else:
             day_in_week = weekday_names_slovenian[date.weekday()]  # Pridobi slovensko ime dneva
-            date_str = date.strftime("%d. %B") + f" {day_in_week}"  # Oblikuj datum
+            date_str = date.strftime("%d. ") + month_names_slovenian[date.month] + f" {day_in_week}"  # Oblikuj datum
             html_output += f"<tr style='background-color: lightgray;'>"
             html_output += f"<td>{date_str}</td><td></td><td></td><td></td><td></td>"
             # Add empty cells for location
