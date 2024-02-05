@@ -117,7 +117,7 @@ def convert_ics_to_html(ics_file_path):
             week_dates.append(current_date)
             current_date += delta
 
-    # Dodaj razvrščene dogodke v izhod HTML
+    # Dodaj razvrščene dogodke v HTML
     current_month = None
     for date in week_dates:
         events_on_date = [event for event in events if event[0].date() == date]
@@ -140,6 +140,8 @@ def convert_ics_to_html(ics_file_path):
             date_str = date.strftime("%d. %B") + f" {day_in_week}"  # Oblikuj datum
             html_output += f"<tr style='background-color: lightgray;'>"
             html_output += f"<td>{date_str}</td><td></td><td></td><td></td><td></td>"
+            # Add empty cells for location
+            html_output += f"<td></td>"
             html_output += "</tr>"
 
 
