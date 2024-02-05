@@ -55,7 +55,6 @@ def convert_ics_to_html(ics_file_path):
             end_time_time = end_time.strftime("%H:%M")
 
             # Calculate duration of the event in hours
-            # duration_hours = (end_time - start_time).seconds // 3600
             duration_minutes = (end_time - start_time).seconds // 60
             duration_hours = duration_minutes // 45
 
@@ -78,12 +77,33 @@ def convert_ics_to_html(ics_file_path):
     # Sort events by start time
     events.sort(key=lambda x: x[0])
 
+
+
+
+
     # Start building HTML output
     html_output = "<html><head><title>iCalendar Events</title></head><body>"
     html_output += "<style>table { border-collapse: collapse; } th, td { padding: 8px; border: 1px solid black; }</style>"
-    html_output += "<h1>iCalendar Events</h1>"
+
+
+    # Calculate the sum of duration_hours for each unique summary
+    summary_duration = {}
+    for event in events:
+        summary = event[1]
+        duration_hours = event[5]
+        if summary in summary_duration:
+            summary_duration[summary] += duration_hours
+        else:
+            summary_duration[summary] = duration_hours
+
+    # Add title before the grid
+    html_output += "<div>"
+    for summary, total_duration in summary_duration.items():
+        html_output += f"<p><strong>{summary}</strong> : {total_duration} ur</p>"
+    html_output += "</div>"
+
     html_output += "<table>"
-    html_output += "<tr><th>Date</th><th>Time</th><th>Hours</th><th>Subject</th><th>Professor</th><th>Location</th></tr>"
+    html_output += "<tr><th>Datum</th><th>Začetek/Konec</th><th>Ure</th><th>Predmet</th><th>Profesor</th><th>Prostor</th></tr>"
 
     # Create a list of all dates in the week
     week_dates = []
