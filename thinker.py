@@ -2,7 +2,7 @@ from tkinter import filedialog, Tk
 from datetime import datetime, timedelta
 import icalendar
 
-# Mapping of weekday names in Slovenian
+# Preslikava imen dni v slovenščini
 weekday_names_slovenian = {
     0: "ponedeljek",
     1: "torek",
@@ -13,7 +13,7 @@ weekday_names_slovenian = {
     6: "nedelja"
 }
 
-# Mapping of month names in Slovenian
+# Preslikava imen mesecev v slovenščini
 month_names_slovenian = {
     1: "januar",
     2: "februar",
@@ -30,14 +30,14 @@ month_names_slovenian = {
 }
 
 def convert_ics_to_html(ics_file_path):
-    # Open the .ics file
+    # Odpri datoteko .ics
     with open(ics_file_path, 'rb') as file:
         cal = icalendar.Calendar.from_ical(file.read())
 
-    # List to store events
+    # Seznam za shranjevanje dogodkov
     events = []
 
-    # Iterate through each event in the calendar
+    # Sprehod po vsakem dogodku v koledarju
     for component in cal.walk():
         if component.name == "VEVENT":
             summary = component.get('summary')
@@ -47,42 +47,42 @@ def convert_ics_to_html(ics_file_path):
             description = component.get('description')
             organizer = component.get('organizer')
 
-            # Format the date and time
-            day_in_week = weekday_names_slovenian[start_time.weekday()]  # Get Slovenian day name
-            start_time_str = start_time.strftime("%d. %B") + f" {day_in_week}"  # Format date
+            # Oblikuj datum in čas
+            day_in_week = weekday_names_slovenian[start_time.weekday()]  # Pridobi slovensko ime dneva
+            start_time_str = start_time.strftime("%d. %B") + f" {day_in_week}"  # Oblikuj datum
 
             start_time_time = start_time.strftime("%H:%M")
             end_time_time = end_time.strftime("%H:%M")
 
-            # Calculate duration of the event in hours
+            # Izračunaj trajanje dogodka v urah
             duration_minutes = (end_time - start_time).seconds // 60
             duration_hours = duration_minutes // 45
 
-            # Extract additional details from the description if available
+            # Izvleči dodatne podrobnosti iz opisa, če so na voljo
             description_str = str(description)
             
             professor_index = description_str.find("Izvajalci:")
             professor_str = description_str[professor_index:].split("\n")[0].split(":")[1].strip()
 
-            # Get color if available
+            # Pridobi barvo, če je na voljo
             color = component.get('color')
             if color:
                 color_style = f"background-color: {color};"
             else:
                 color_style = ""
 
-            # Append event details to the list
+            # Dodaj podrobnosti dogodka v seznam
             events.append((start_time, summary, start_time_str, start_time_time, end_time_time, duration_hours, professor_str, location, color_style))
 
-    # Sort events by start time
+    # Razvrsti dogodke po začetnem času
     events.sort(key=lambda x: x[0])
 
-    # Start building HTML output
-    html_output = "<html><head><title>iCalendar Events</title></head><body>"
+    # Začni graditi izhod HTML
+    html_output = "<html><head><title>iCalendar Dogodki</title></head><body>"
     html_output += "<style>table { border-collapse: collapse; } th, td { padding: 8px; border: 1px solid black; }</style>"
 
 
-    # Calculate the sum of duration_hours and get professor_str for each unique summary
+    # Izračunaj vsoto duration_hours in pridobi professor_str za vsak edinstveni povzetek
     summary_info = {}
     for event in events:
         summary = event[1]
@@ -95,18 +95,18 @@ def convert_ics_to_html(ics_file_path):
         else:
             summary_info[summary] = [duration_hours, [professor_str]]
 
-    # Add title before the grid
+    # Dodaj naslov pred mrežo
     html_output += "<div>"
     for summary, info in summary_info.items():
         total_duration = info[0]
         professors = ', '.join(info[1])
-        html_output += f"<p><strong>{summary}</strong>: {total_duration} hours, Professors: {professors}</p>"
+        html_output += f"<p><strong>{summary}</strong>: {total_duration} ur, Profesorji: {professors}</p>"
     html_output += "</div>"
 
     html_output += "<table>"
     html_output += "<tr><th>Datum</th><th>Začetek/Konec</th><th>Ure</th><th>Predmet</th><th>Profesor</th><th>Prostor</th></tr>"
 
-    # Create a list of all dates in the week
+    # Ustvari seznam vseh datumov v tednu
     week_dates = []
     if events:
         start_date = events[0][0].date()
@@ -117,7 +117,7 @@ def convert_ics_to_html(ics_file_path):
             week_dates.append(current_date)
             current_date += delta
 
-    # Add sorted events to HTML output
+    # Dodaj razvrščene dogodke v izhod HTML
     current_month = None
     for date in week_dates:
         events_on_date = [event for event in events if event[0].date() == date]
@@ -128,7 +128,7 @@ def convert_ics_to_html(ics_file_path):
                     month_name = month_names_slovenian[current_month]
                     html_output += f"<tr><th colspan='6'>{month_name}</th></tr>"
                 html_output += f"<tr style='{event[8]}'>"
-                html_output += f"<td>{event[2]}</td>"
+                html_output += f"<td>{date.day}. {month_name}</td>"  # Changed to include day and month name
                 html_output += f"<td>{event[3]} - {event[4]}</td>"
                 html_output += f"<td>{event[5]}</td>"
                 html_output += f"<td>{event[1]}</td>"
@@ -136,11 +136,12 @@ def convert_ics_to_html(ics_file_path):
                 html_output += f"<td>{event[7]}</td>"
                 html_output += "</tr>"
         else:
-            day_in_week = weekday_names_slovenian[date.weekday()]  # Get Slovenian day name
-            date_str = date.strftime("%d. %B") + f" {day_in_week}"  # Format date
+            day_in_week = weekday_names_slovenian[date.weekday()]  # Pridobi slovensko ime dneva
+            date_str = date.strftime("%d. %B") + f" {day_in_week}"  # Oblikuj datum
             html_output += f"<tr style='background-color: lightgray;'>"
             html_output += f"<td>{date_str}</td><td></td><td></td><td></td><td></td>"
             html_output += "</tr>"
+
 
     html_output += "</table>"
     html_output += "</body></html>"
@@ -149,7 +150,7 @@ def convert_ics_to_html(ics_file_path):
 
 def open_file_dialog():
     root = Tk()
-    root.withdraw()  # Hide the main window
+    root.withdraw()  # Skrij okno
     file_path = filedialog.askopenfilename(filetypes=[("iCalendar files", "*.ics")])
     if file_path:
         html_output = convert_ics_to_html(file_path)
