@@ -13,6 +13,22 @@ weekday_names_slovenian = {
     6: "nedelja"
 }
 
+# Mapping of month names in Slovenian
+month_names_slovenian = {
+    1: "januar",
+    2: "februar",
+    3: "marec",
+    4: "april",
+    5: "maj",
+    6: "junij",
+    7: "julij",
+    8: "avgust",
+    9: "september",
+    10: "oktober",
+    11: "november",
+    12: "december"
+}
+
 def convert_ics_to_html(ics_file_path):
     # Open the .ics file
     with open(ics_file_path, 'rb') as file:
