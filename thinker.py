@@ -93,26 +93,59 @@ def convert_ics_to_html(ics_file_path):
     while current_date <= end_date:
         week_dates.append(current_date)
         current_date += delta
+        
+        
+        
+        
+        
 
-    # Add sorted events to HTML output
-    for date in week_dates:
-        events_on_date = [event for event in events if event[0].date() == date]
-        if events_on_date:
-            for event in events_on_date:
-                html_output += f"<tr style='{event[8]}'>"
-                html_output += f"<td>{event[2]}</td>"
-                html_output += f"<td>{event[3]} - {event[4]}</td>"
-                html_output += f"<td>{event[5]}</td>"
-                html_output += f"<td>{event[1]}</td>"
-                html_output += f"<td>{event[6]}</td>"
-                html_output += f"<td>{event[7]}</td>"
-                html_output += "</tr>"
-        else:
-            day_in_week = weekday_names_slovenian[date.weekday()]  # Get Slovenian day name
-            date_str = date.strftime("%d. %B") + f" {day_in_week}"  # Format date
-            html_output += f"<tr style='background-color: lightgray;'>"
-            html_output += f"<td>{date_str}</td><td></td><td></td><td></td><td></td>"
+    # # Add sorted events to HTML output
+    # for date in week_dates:
+    #     events_on_date = [event for event in events if event[0].date() == date]
+    #     if events_on_date:
+    #         for event in events_on_date:
+    #             html_output += f"<tr style='{event[8]}'>"
+    #             html_output += f"<td>{event[2]}</td>"
+    #             html_output += f"<td>{event[3]} - {event[4]}</td>"
+    #             html_output += f"<td>{event[5]}</td>"
+    #             html_output += f"<td>{event[1]}</td>"
+    #             html_output += f"<td>{event[6]}</td>"
+    #             html_output += f"<td>{event[7]}</td>"
+    #             html_output += "</tr>"
+    #     else:
+    #         day_in_week = weekday_names_slovenian[date.weekday()]  # Get Slovenian day name
+    #         date_str = date.strftime("%d. %B") + f" {day_in_week}"  # Format date
+    #         html_output += f"<tr style='background-color: lightgray;'>"
+    #         html_output += f"<td>{date_str}</td><td></td><td></td><td></td><td></td>"
+    #         html_output += "</tr>"
+
+
+        current_month = None
+        for event in events:
+            event_month = event[0].month
+            if event_month != current_month:
+                current_month = event_month
+                month_name = month_names_slovenian[current_month]
+                html_output += f"<h2>{month_name}</h2>"
+                html_output += "<table>"
+                html_output += "<tr><th>Date</th><th>Time</th><th>Hours</th><th>Subject</th><th>Professor</th><th>Location</th></tr>"
+            
+            html_output += f"<tr style='{event[8]}'>"
+            html_output += f"<td>{event[2]}</td>"
+            html_output += f"<td>{event[3]} - {event[4]}</td>"
+            html_output += f"<td>{event[5]}</td>"
+            html_output += f"<td>{event[1]}</td>"
+            html_output += f"<td>{event[6]}</td>"
+            html_output += f"<td>{event[7]}</td>"
             html_output += "</tr>"
+
+
+
+
+
+
+
+
 
     html_output += "</table>"
     html_output += "</body></html>"
