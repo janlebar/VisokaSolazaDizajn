@@ -2,6 +2,7 @@ from tkinter import filedialog, Tk
 from datetime import datetime, timedelta
 import icalendar
 import requests
+from tempfile import NamedTemporaryFile
 
 # Preslikava imen dni v slovenščini
 weekday_names_slovenian = {
@@ -153,24 +154,19 @@ def convert_ics_to_html(ics_file_path):
 
     return html_output
 
-def fetch_data_from_api():
-    url = "https://urnik.fd.si/teacher/56/?export=1&types=standard%2Cspecial%2Creservation"
+def open_url(url):
     response = requests.get(url)
-
     if response.status_code == 200:
-        return response.text
-    else:
-        print("Failed to fetch data from the API.")
-        return None
-
-def main():
-    api_data = fetch_data_from_api()
-    if api_data:
+        with NamedTemporaryFile(delete=False, suffix=".ics") as tmp_file:
+            tmp_file.write(response.content)
+            tmp_file_path = tmp_file.name
+        html_output = convert_ics_to_html(tmp_file_path)
         with open("urnik.html", "w") as html_file:
-            html_file.write(api_data)
-        print("Data fetched from API and saved to urnik.html.")
+            html_file.write(html_output)
+        print("Conversion completed. HTML file generated.")
     else:
-        print("No data fetched from the API.")
+        print("Failed to fetch the iCalendar file from the URL.")
 
 if __name__ == "__main__":
-    main()
+    url = "https://urnik.fd.si/teacher/56/?export=1&types=standard%2Cspecial%2Creservation"
+    open_url(url)
