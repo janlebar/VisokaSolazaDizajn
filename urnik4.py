@@ -50,6 +50,7 @@ def convert_ics_to_html(ics_file_path):
             organizer = component.get('organizer')
 
             # Oblikuj datum in čas
+            
             day_in_week = weekday_names_slovenian[start_time.weekday()]  # Pridobi slovensko ime dneva
             start_time_str = start_time.strftime("%d. %B") + f" {day_in_week}"  # Oblikuj datum
 
@@ -72,6 +73,10 @@ def convert_ics_to_html(ics_file_path):
                 color_style = f"background-color: white;"
             else:
                 color_style = ""
+
+            import locale
+            locale.setlocale(locale.LC_TIME, 'ar-EG')
+            start_time = component.get('dtstart').dt.strftime('%A, %d. %B')
 
             # Dodaj podrobnosti dogodka v seznam
             events.append((start_time, summary, start_time_str, start_time_time, end_time_time, duration_hours, professor_str, location, color_style))
