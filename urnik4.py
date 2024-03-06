@@ -3,33 +3,34 @@ from datetime import datetime, timedelta
 import icalendar
 import requests
 from tempfile import NamedTemporaryFile
+import locale
 
-# Preslikava imen dni v slovenščini
-weekday_names_slovenian = {
-    0: "ponedeljek",
-    1: "torek",
-    2: "sreda",
-    3: "četrtek",
-    4: "petek",
-    5: "sobota",
-    6: "nedelja"
-}
+# # Preslikava imen dni v slovenščini
+# weekday_names_slovenian = {
+#     0: "ponedeljek",
+#     1: "torek",
+#     2: "sreda",
+#     3: "četrtek",
+#     4: "petek",
+#     5: "sobota",
+#     6: "nedelja"
+# }
 
-# Preslikava imen mesecev v slovenščini
-month_names_slovenian = {
-    1: "januar",
-    2: "februar",
-    3: "marec",
-    4: "april",
-    5: "maj",
-    6: "junij",
-    7: "julij",
-    8: "avgust",
-    9: "september",
-    10: "oktober",
-    11: "november",
-    12: "december"
-}
+# # Preslikava imen mesecev v slovenščini
+# month_names_slovenian = {
+#     1: "januar",
+#     2: "februar",
+#     3: "marec",
+#     4: "april",
+#     5: "maj",
+#     6: "junij",
+#     7: "julij",
+#     8: "avgust",
+#     9: "september",
+#     10: "oktober",
+#     11: "november",
+#     12: "december"
+# }
 
 def convert_ics_to_html(ics_file_path):
     # Odpri datoteko .ics
@@ -50,6 +51,9 @@ def convert_ics_to_html(ics_file_path):
             organizer = component.get('organizer')
 
             # Oblikuj datum in čas
+            
+            locale.setlocale(locale.LC_TIME, 'ar-EG')
+            start_time = component.get('dtstart').dt.strftime('%A, %d. %B')
             
             day_in_week = weekday_names_slovenian[start_time.weekday()]  # Pridobi slovensko ime dneva
             start_time_str = start_time.strftime("%d. %B") + f" {day_in_week}"  # Oblikuj datum
@@ -74,9 +78,8 @@ def convert_ics_to_html(ics_file_path):
             else:
                 color_style = ""
 
-            import locale
-            locale.setlocale(locale.LC_TIME, 'ar-EG')
-            start_time = component.get('dtstart').dt.strftime('%A, %d. %B')
+            
+
 
             # Dodaj podrobnosti dogodka v seznam
             events.append((start_time, summary, start_time_str, start_time_time, end_time_time, duration_hours, professor_str, location, color_style))
